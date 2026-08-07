@@ -274,6 +274,23 @@ export const SettingsHardware: React.FC<SettingsHardwareProps> = ({
                 </select>
               </div>
 
+              <div>
+                <label className="block font-bold text-[#1A1A1A] mb-1">Số Bill In 1 Lần (Bản in):</label>
+                <select
+                  value={formData.printCopies || 1}
+                  onChange={(e) =>
+                    setFormData({ ...formData, printCopies: Math.max(1, Number(e.target.value)) })
+                  }
+                  className="w-full p-2.5 rounded-xl border border-[#E0E0D6] font-bold text-[#1A1A1A] bg-[#FAF9F6]"
+                >
+                  <option value={1}>In 1 bản bill (Mặc định)</option>
+                  <option value={2}>In 2 bản bill (1 bản giao khách, 1 bản lưu quán)</option>
+                  <option value={3}>In 3 bản bill (Khách, Quán, Bếp)</option>
+                  <option value={4}>In 4 bản bill</option>
+                  <option value={5}>In 5 bản bill</option>
+                </select>
+              </div>
+
               {formData.printerType === 'lan' && (
                 <>
                   <div>
