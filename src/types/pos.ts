@@ -121,4 +121,5 @@ export interface StoreConfig {
   paperSize: '80mm' | '58mm';
   autoPrintReceipt: boolean;
   printKitchenReceipt: boolean;
+  printCopies?: number;
 }
