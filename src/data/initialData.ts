@@ -17,6 +17,7 @@ export const DEFAULT_STORE_CONFIG: StoreConfig = {
   paperSize: "80mm",
   autoPrintReceipt: true,
   printKitchenReceipt: true,
+  printCopies: 1,
   googleSheetsUrl: "",
   googleSheetsAutoSync: true,
 };
