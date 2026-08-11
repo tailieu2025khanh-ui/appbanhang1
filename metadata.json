@@ -1,0 +1,7 @@
+{
+  "name": "CHẢ GIÒ BẮP - POS F&B & In Bill Sunmi D2",
+  "description": "Hệ thống quản lý bán hàng POS F&B CHẢ GIÒ BẮP chuyên nghiệp, hỗ trợ in hóa đơn nhiệt USB 2 bill trên máy Pos Sunmi D2, sơ đồ bàn, KDS bếp và kết nối cơ sở dữ liệu doanh thu trực tuyến từ Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
