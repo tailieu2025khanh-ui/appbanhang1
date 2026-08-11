@@ -1,6 +1,0 @@
-{
-  "name": "BÁN HÀNG CHẢ GIÒ - Hệ Thống Bán Hàng & Database Google Sheets",
-  "description": "Hệ thống POS chuyên nghiệp dành cho Cửa hàng BÁN HÀNG CHẢ GIÒ: Đặt món nhanh, Sơ đồ bàn, In hóa đơn ESC/POS, Màn hình Bếp KDS, Kết nối Google Sheets Database trực tuyến và Báo cáo Doanh thu.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
